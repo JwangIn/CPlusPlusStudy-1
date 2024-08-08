@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CplusplusProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CplusplusProject\\CplusplusProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:CplusplusProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 185,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CplusplusProject.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CplusplusProject\\CplusplusProject.cpp",
+              "RelativeDocumentMoniker": "CplusplusProject.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CplusplusProject\\CplusplusProject.cpp",
+              "RelativeToolTip": "CplusplusProject.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-08T07:09:15.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
