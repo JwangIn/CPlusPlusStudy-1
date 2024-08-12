@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lecture3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\CplusplusProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:CplusplusProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lectures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lectures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,38 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "lecture3.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture3.cpp",
+              "RelativeDocumentMoniker": "lecture3.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture3.cpp",
+              "RelativeToolTip": "lecture3.cpp",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAAMUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-12T07:01:55.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "lecture2.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture2.cpp",
               "RelativeDocumentMoniker": "lecture2.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture2.cpp",
               "RelativeToolTip": "lecture2.cpp",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAowKUAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKUAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-09T07:03:56.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "lectures.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.cpp",
               "RelativeDocumentMoniker": "lectures.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.cpp",
               "RelativeToolTip": "lectures.cpp",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAmwJ0AAAAAAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAmwJ0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-08T07:28:24.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "lectures.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.h",
               "RelativeDocumentMoniker": "lectures.h",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.h",
               "RelativeToolTip": "lectures.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-08T07:25:29.319Z",
               "EditorCaption": ""
@@ -75,7 +92,7 @@
               "RelativeDocumentMoniker": "CplusplusProject.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\CplusplusProject.cpp",
               "RelativeToolTip": "CplusplusProject.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-08T07:09:15.537Z",
               "EditorCaption": ""
