@@ -1,4 +1,2 @@
-﻿  lecture3.cpp
-C:\Users\Administrator\Desktop\CPlusPlusStudy\CplusplusProject\lecture3.cpp(42,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Cat' 왼쪽은 무시됩니다.
-C:\Users\Administrator\Desktop\CPlusPlusStudy\CplusplusProject\lecture3.cpp(56,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  lecture4.cpp
   CplusplusProject.vcxproj -> C:\Users\Administrator\Desktop\CPlusPlusStudy\CplusplusProject\x64\Debug\CplusplusProject.exe
