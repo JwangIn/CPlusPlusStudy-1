@@ -3,60 +3,85 @@
 #include <vector>
 #include <iostream>
 
-class Position
+namespace TextConsole
 {
-public:
-	int posX;
-	int posY;
-
-	// 연산자 오버로딩 사용하세요. 반환값 bool, true, false 각각 만들어보세요
-	// operator !=,  == 
-	bool operator == (const Position& otherPos) const
+	class Position
 	{
-		return posX == otherPos.posX && posY == otherPos.posY;
-	}
+	public:
 
-	bool operator != (const Position& otherPos) const
+		int X;
+		int Y;
+
+		bool operator == (const Position& otherPos) const
+		{
+			return X == otherPos.X && Y == otherPos.Y;
+		}
+		bool operator != (const Position& otherPos) const
+		{
+			return !(*this == otherPos);
+		}
+	};
+
+	enum ItemType
 	{
-		return !(*this == otherPos);
-	}
-};
+		ItemType_BOOK = 0,
+		ItemType_COIN,
+		ItemType_SWORD,
+		ItemType_KEY
+	};
 
-// GetInput();       ->
-// Commanparse();	 ->	 입력키를 받는 함수 -> Commandparse
-// if(CommandType== North) PlayerState.currentPosY 좌표를 이동
-
-
-class PlayerState
-{
-public:
-	Position CurrentPosition;     // 현재 플레이어의 위치
-	Position NewPosition;         // 입력 받은 플레이어의 위치
-};
-
-// Console Text. 맵 이동 기능.
-// 현재 맵 정보, 현재 맵에 대한 설명
-class MapData
-{
-	std::string Name;			// Name = "초원";	
-	std::string Description;	// 이 맵의 정보를 작성한다.
-	std::string MapInfo;
-	unsigned int MapWidth; 
-public:
-	Position MapPosition;       // 맵 마다 시작하는 위치 다르게하기 위해서 (x,y)
-	MapData();
-	MapData(std::string Name, std::string Description, std::string MapInfo)
+	class ItemData
 	{
-		this->Name = Name;
-		this->Description = Description;
-		this->MapInfo = MapInfo;
-	}
-};
+	public:
+		ItemType Type;
+		Position ItemPosition;
+		int Quantity;
+		char Icon;
+		std::string Name;
+	};
 
-class WorldState  // 맵이 여러개 있는 World <- 플레이어가 위치해야할 정보를 담고 있는 클래스
-{
-public:
-	std::vector<MapData> Mapdatas;
-};
+	struct LockedDoorData
+	{
+		Position DoorPosition;
+	};
 
-void InitializeGame(PlayerState& playerState, WorldState& worldState);
+	class PlayerState
+	{
+	public:
+		bool WantsToExit;               // 게임 종료
+		bool WantsDescription;          // 게임 설명
+		bool WantsInventoryListed;      // 인벤토리
+		bool WantsToGet;                // 아이템 획득
+		int CurrentRoomIndex;           // 맵 정보
+		Position CurrentPosition;       // 플레이어 위치
+		Position NewPosition;           // 다음 이동 위치
+		std::vector<ItemData> Inventory;// 아이템 정보(가변 배열)
+	};
+	class MapData
+	{
+	public:
+		std::string Name;
+		std::string Description;
+		std::string RoomMap;
+		unsigned int RoomMapWidth;
+		Position MapPosition;
+		std::vector<ItemData> Inventory;
+		std::vector<LockedDoorData> LockedDoor;
+	};
+	struct WorldState
+	{
+		std::vector<MapData> Rooms;
+	};
+	void InitializeGame(PlayerState& playerState, WorldState& worldState);
+	void GetInput(PlayerState& playerState, const WorldState& worldState);
+	void RenderGame(const PlayerState& playerState, const WorldState& worldState);
+	void UpdateGame(PlayerState& playerState, WorldState& worldState);
+	void CleanupGame(PlayerState& playerState, WorldState& worldState);
+	void TryToUnlockDoors(PlayerState& playerState, MapData& currRoom);
+
+	int PositionToIndex(const Position& position, int roomWidth);
+	bool IsSpaceOutsideMap(const Position& position, const MapData& currRoom);
+	bool IsSpaceOpenForMovement(const Position& position, const MapData& currRoom);
+	char GetItemIcon(ItemType itemType);
+	std::string GetItemName(ItemType itemType);
+}

@@ -10,6 +10,8 @@
 #include "GameCore.h"
 // 직접 만들 헤더2.
 
+using namespace TextConsole;
+
 int main()
 {
     // 콘솔 크기를 먼저 설정.
@@ -29,8 +31,9 @@ int main()
 
     while (true)
     {
-        ParseCommand();  // player의 x,y 좌표를 이동시켰습니다. y-1;
-
+        RenderGame(player,world);// player의 x,y 좌표를 이동시켰습니다. y-1;
+        GetInput(player, world);
+        UpdateGame(player, world);
         // 플레이어의 입력 : if(Async wasd) -> if() -> if( )
         // Rendering : 이미지(맵)를 그려주는 것
         // Update    : 특정 위치에 도착하면 다음 맵으로 이동한다. 플레이어의 위치, 특정 장소의 위치 같은지 아닌지
