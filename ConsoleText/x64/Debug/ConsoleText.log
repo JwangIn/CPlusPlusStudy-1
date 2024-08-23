@@ -1,3 +1,6 @@
-﻿  GameCore.cpp
-C:\Users\Administrator\Desktop\CPlusPlusStudy\ConsoleText\GameCore.cpp(421,165): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  ConsoleText.vcxproj -> C:\Users\Administrator\Desktop\CPlusPlusStudy\CplusplusProject\x64\Debug\ConsoleText.exe
+﻿  ConsoleText.cpp
+  GameCore.cpp
+C:\Users\Administrator\Desktop\CPlusPlusStudy-1\ConsoleText\GameCore.cpp(421,165): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Parser.cpp
+  코드를 생성하고 있습니다...
+  ConsoleText.vcxproj -> C:\Users\Administrator\Desktop\CPlusPlusStudy-1\CplusplusProject\x64\Debug\ConsoleText.exe

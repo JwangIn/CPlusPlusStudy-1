@@ -1,1 +1,2 @@
 C:\Users\Administrator\Desktop\CPlusPlusStudy\CplusplusProject\x64\Debug\CplusplusProject.exe
+C:\Users\Administrator\Desktop\CPlusPlusStudy-1\CplusplusProject\x64\Debug\CplusplusProject.exe

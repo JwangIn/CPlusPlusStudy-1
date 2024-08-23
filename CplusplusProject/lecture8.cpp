@@ -59,7 +59,7 @@ private:
 	char* title;
 	int price;
 public:
-	Book(int price, char* title) :price(price) // == this_price=price; 둘이 같다
+	Book(int price,const char* title) :price(price) // == this_price=price; 둘이 같다
 	{
 		title = new char[strlen(title) + 1];
 		strcpy_s(this->title, strlen((title)+1), title);
@@ -81,7 +81,7 @@ class EBook :public Book
 private:
 	char* DRMkey;
 public:
-	EBook(int price,  char* title,  char* key) :Book(price, title)
+	EBook(int price,  char* title, const char* key) :Book(price, title)
 	{
 		key = new char[strlen(key) + 1];
 		strcpy_s(DRMkey, strlen((key)+1), key);
