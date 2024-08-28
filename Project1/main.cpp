@@ -20,6 +20,40 @@ int main(void)
 {
 	std::cout << "RPG BATTLE SYSTEM" << std::endl;
 
+	Player player(100, 10);
+	player.PlayerBeAttaked(10);
+	
+	Item sword("소드", 1);
+	Reward slimeReward(50,100,sword);
+	Goblin goblin(50, 5,&slimeReward);
+
+	int userInput = 0;
+	int turn = 1;
+	while (true)
+	{
+		std::cout << "현재 진행중인 턴 수 : " << turn << std::endl;
+		std::cout << "1번 공격, 2번 ??, 3번 ?? " << std::endl;
+		std::cin >> userInput;
+		if (userInput == 1)
+		{
+			player.PlayerAttack(&goblin);
+		}
+		else if (userInput == 2)
+		{
+			player.ShowStatus();
+		}
+		std::cout << "고블린의 Turn" << std::endl;
+		goblin.MonsterAttack(&player);
+
+		if (player.IsDead() || goblin.IsDead())
+		{
+			break;
+		}
+
+
+	}
+
+
 	// 1. 게임 시작 화면
 
 	// 2. 메인 게임 플레이
