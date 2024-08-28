@@ -9,11 +9,12 @@ private:
 	int HP;
 	int AP;
 public:
+	Player();
 	Player(int HP, int AP);;
 	~Player();
 
 	int PlayerAttack();
-	void PlayerBeAttaked();
+	void PlayerBeAttaked(Monster* monster);
 };
 
 class Monster
@@ -24,11 +25,12 @@ private:
 	std::string Name;
 	Reward* monsterReward;
 public:
+	Monster();
 	Monster(int HP, int AD);
 	~Monster();
 
 	int MonsterAttack();
-	void MonsterBeAttaked();
+	void MonsterBeAttaked(Player* player);
 	void Dropitem();
 };
 
@@ -36,7 +38,7 @@ class Goblin : public Monster
 {
 
 public:
-	Goblin(int Hp, int AD);
+	Goblin(int HP, int AD);
 };
 
 class Reward

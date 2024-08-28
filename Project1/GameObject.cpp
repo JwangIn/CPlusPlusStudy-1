@@ -1,6 +1,10 @@
 #include "GameObject.h"
 
-inline Player::Player(int HP, int AP) :HP(HP), AP(AP) {}
+
+Player::Player()
+{}
+
+Player::Player(int HP, int AP) :HP(HP), AP(AP) {}
 
 Player::~Player()
 {
@@ -12,21 +16,30 @@ int Player::PlayerAttack()
 	return AP;
 }
 
-void Player::PlayerBeAttaked()
+void Player::PlayerBeAttaked(Monster* monster)
 {
-	HP -= AD;
-	std::cout << "플레이어의 HP가" << AD << "만큼 떨어젔습니다." << std::endl;
+	
+	Goblin* goblin = dynamic_cast<Goblin*>(monster);
+	HP -= goblin->MonsterAttack();
+	std::cout << "플레이어의 HP가" << goblin->MonsterAttack() << "만큼 떨어젔습니다." << std::endl;
 	std::cout << "플레이어의 현재 체력 : " << HP << std::endl;
 
 }
 
-int Monster::MonsterAttack()
+Monster::Monster()
+{}
+
+Monster::Monster(int HP, int AD) : HP(HP),AD(AD) {}
+
+int Monster::MonsterAttack() 
 {
 	return AD;
 }
 
-void Monster::MonsterBeAttaked()
+void Monster::MonsterBeAttaked(Player* player)
 {
+	HP -= player->PlayerAttack();
+
 }
 
 void Monster::Dropitem()
