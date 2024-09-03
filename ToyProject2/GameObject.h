@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
+#include <iomanip>
 
 // 클래스 키워드. 이름, 상속을 해야하면 상속을 선언.
 // 기능과 멤버 변수 선언 private, public, protected
@@ -25,49 +26,9 @@
 // 포인터를 클래스로 표현한 것 -> iterator
 // 문자열을 클래스로 표현한 것 -> string
 
-template <typename T>
-class SingleTon
-{
-private:
-	static T* singleton;
-public:
-	SingleTon(){}
-	virtual ~SingleTon(){}
-	static T* GetSingleTon()
-	{
-		if (nullptr == singleton)
-		{
-			singleton = new T;
-		}
-		return singleton;
-	}
-	static void Release()
-	{
-		delete singleton;
-		singleton = nullptr;
-	}
-};
-
-template<typename T>
-T* SingleTon<T>::singleton = nullptr;
-
-// GameManger 클래스가 SingleTon 상속받는다. 
-// SingleTon 클래스를 내부적으로 사용하고있다.
-class GameManger : public SingleTon<GameManger>
-{
-private:
-	// 멤버
-public:
-	GameManger(){}
-	~GameManger(){}
-	// 기능 : 게임 화면 출력, 게임 시작, 게임 종료
-	void MainMenu();
-	void GameStart();
-	void GameEnd();
-};
-
 class Board
 {
+	bool isNum(std::string& s);
 private:
 	int size; // 크기가 3
 	std::string** bmap;// 2차원 배열 [세로][가로]
@@ -78,20 +39,25 @@ public:
 	void GamePlay();
 
 	// 2차원 배열에 데이터를 넣는 함수
-	void insert_x(int pos);
-	void insert_y(int pos);
+	bool insert_x(int pos);
+	bool insert_o(int pos);
 
 	// 2차원 배열안에 데이터가 있는지 없는지 체크 하는 함수
-	std::string get_item(int pos);
+	std::string get_item(int pos) const;
+	std::string get_item(int col, int row)const;
+
+	// 보드판에 들어 있는 값을 출력해주는 함수
+	void Print();
 
 	bool x_win();
 	bool o_win();
 
-	int GetSize() { return size; }
+	int GetSize()const { return size; }
 
 };
 
 // std::cout 함수를 이용해서 클래스를 출력하겠다.
-std::ostream& operator<< (std::ostream& out, Board* b);
+std::ostream& operator<< (std::ostream& out, const Board b);
+
 
 

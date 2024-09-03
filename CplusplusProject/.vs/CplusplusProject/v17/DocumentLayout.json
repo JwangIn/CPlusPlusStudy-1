@@ -1,21 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\CplusplusProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\CplusplusProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71E107E0-6DF1-4100-9D84-F59FACE0DE28}|..\\ToyProject2\\ToyProject2.vcxproj|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{71E107E0-6DF1-4100-9D84-F59FACE0DE28}|..\\ToyProject2\\ToyProject2.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E107E0-6DF1-4100-9D84-F59FACE0DE28}|..\\ToyProject2\\ToyProject2.vcxproj|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{71E107E0-6DF1-4100-9D84-F59FACE0DE28}|..\\ToyProject2\\ToyProject2.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AE56196-4564-4734-A3AC-6157A96E8EDB}|..\\Project1\\Project1.vcxproj|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{71E107E0-6DF1-4100-9D84-F59FACE0DE28}|..\\ToyProject2\\ToyProject2.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AE56196-4564-4734-A3AC-6157A96E8EDB}|..\\Project1\\Project1.vcxproj|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AE56196-4564-4734-A3AC-6157A96E8EDB}|..\\Project1\\Project1.vcxproj|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,71 +34,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 185,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h",
-              "RelativeDocumentMoniker": "..\\ToyProject2\\GameObject.h",
-              "ToolTip": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h",
-              "RelativeToolTip": "..\\ToyProject2\\GameObject.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-02T05:14:41.525Z",
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\GameObject.cpp",
+              "RelativeDocumentMoniker": "..\\ToyProject2\\GameObject.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\GameObject.cpp",
+              "RelativeToolTip": "..\\ToyProject2\\GameObject.cpp",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwEcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-03T07:05:44.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h",
+              "RelativeDocumentMoniker": "..\\ToyProject2\\GameObject.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h",
+              "RelativeToolTip": "..\\ToyProject2\\GameObject.h",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwC4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-03T07:05:04.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\main.cpp",
               "RelativeDocumentMoniker": "..\\ToyProject2\\main.cpp",
-              "ToolTip": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy-1\\ToyProject2\\main.cpp",
               "RelativeToolTip": "..\\ToyProject2\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAEoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T05:14:40.26Z",
+              "WhenOpened": "2024-09-03T07:04:47.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.h",
-              "RelativeDocumentMoniker": "..\\Project1\\GameObject.h",
-              "ToolTip": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.h",
-              "RelativeToolTip": "..\\Project1\\GameObject.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "DocumentMoniker": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h",
+              "ToolTip": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h",
+              "RelativeToolTip": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\GameObject.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-28T05:43:32.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T05:14:41.525Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\main.cpp",
+              "ToolTip": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\main.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\ToyProject2\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-02T05:14:40.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.h",
+              "ToolTip": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.h",
+              "RelativeToolTip": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-28T05:43:32.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.cpp",
-              "RelativeDocumentMoniker": "..\\Project1\\GameObject.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.cpp",
               "ToolTip": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.cpp",
-              "RelativeToolTip": "..\\Project1\\GameObject.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\GameObject.cpp",
               "ViewState": "AQIAABsAAAAAAAAAAAAowDAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-28T05:42:56.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\main.cpp",
-              "RelativeDocumentMoniker": "..\\Project1\\main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\main.cpp",
               "ToolTip": "C:\\Users\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\main.cpp",
-              "RelativeToolTip": "..\\Project1\\main.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\trund\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CPlusPlusStudy-1\\Project1\\main.cpp",
               "ViewState": "AQIAAAwAAAAAAAAAAADwvx8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-28T05:38:50.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T05:38:50.959Z"
             }
           ]
         }
